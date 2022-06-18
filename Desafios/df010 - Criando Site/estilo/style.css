@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+header {
+text-align: center;
+background-image: linear-gradient(to bottom, rgb(16, 163, 114),rgb(19, 88, 54));
+color: white;
+margin-right: -6px;
+margin-left: -10px;
+margin-top: -30px;
+margin-bottom: -26px;
+box-shadow: 5px 0px 7px 1px rgba(0, 0, 0, 0.356);
+font-family: 'Bebas Neue';
+font-size: 20px;
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
+}
+header > h1{
+  font-weight: lighter;
+
+}
+
+header > p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+nav{
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  line-height: 2em;
+ 
+}
+
+nav a:hover{
+  background-color: rgb(89, 194, 40);
+  color: white;
+}
+
+a{
+color:rgba(255, 255, 255, 0.788);
+text-decoration: none;
+transition-duration: .5s;
+border-radius: 5px;
+padding: 10px;
+font-family: arial;
+letter-spacing: 1px;
+}
+
+body{
+  background-color: rgb(114, 175, 137);
+  font-family: Arial, Helvetica, sans-serif ;
+} 
+a.externo::after{
+  content: '\00A0\1F517';
+}
+
+main{
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  min-width: 320px;
+  max-width: 1000px;
+  margin:auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+  text-align: left;
+  border-radius: 10px;
+}
+
+main p{
+ line-height: 1.5em;
+ text-align: justify;
+ text-indent: 30px;
+}
+
+main> h1{
+  font-family: 'idroid' ;
+  color: rgb(50, 110, 73);
+  margin-left: 10px;
+}
+
+main a:hover{
+text-decoration: underline;
+color:rgb(51, 206, 64);
+}
+
+h2{
+  font-family: 'idroid';
+  color: rgb(56, 114, 78);
+  background-image: linear-gradient(to right, rgb(114, 175, 137),rgb(222, 235, 227),white) ;
+  padding-left:10px; 
+}
+
+div#video{
+  background-color: rgb(6, 70, 33);
+  margin: 0px -10px 30px -10px;
+
+  padding-bottom: 58%;
+  padding-right: -20px;
+  position: relative;
+}
+div#video > iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%
+}
+div#extra{
+margin: 20px;
+background-color: rgb(149, 212, 183);
+border-radius: 10px;
+padding:10px
+}
+div#extra > h3{
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color:rgb(70, 156, 116) ;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px ;
+  color: rgb(255, 255, 255);
+}
+
+ul{
+columns: 2;
+list-style-type: '\2714\00A0\00A0';
+}
+
+b{
+  color: green;
+}
+
+img.center{
+display: block;
+margin: auto;
+}
+
+main img {
+  width: 100%;
+}
+
+main img.pequena {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+footer{
+  background-color: rgb(4, 65, 4);
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px;
+  margin: 0px -7px -8px -10px;
+  color: white;
+ 
+
+width: auto;
+}
