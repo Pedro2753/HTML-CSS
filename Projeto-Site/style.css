@@ -20,27 +20,42 @@ padding-top: 5px;
 padding-bottom: 10px;
 }
 
-main{
-   
+nav a {
+    color:rgb(255, 255, 255);
+    padding:10px;
 }
 
-div#con01{
- font-size: 2.5vh;
-    background-color: white;
-    padding-left: 25px;
+nav a:hover{
+    background-color: rgb(89, 194, 40);
+    color: white;
+}
+
+header > h1, nav{
+    display:inline-block;
+}
+
+
+div#con01{ 
+
+  font-size: 2.5vh;
+  background-color: white;
+  padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   min-width: 320px;
   max-width: 1000px;
+  min-height: 175px;
+  max-height: 175px;
   margin:auto;
-  margin-top: -10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
   border-radius: 10px;
-
+  margin-top: 50px;
 }
 
+
 div#con02{
+
     font-size: 2.5vh;
     background-color: white;
     padding-left: 25px;
@@ -49,6 +64,8 @@ div#con02{
   padding-bottom: 10px;
   min-width: 320px;
   max-width: 1000px;
+  min-height: 175px;
+  max-height: 175px;
   margin: auto;
   margin-top: 50px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
@@ -64,6 +81,8 @@ div#con3{
   padding-bottom: 10px;
   min-width: 320px;
   max-width: 1000px;
+  min-height: 175px;
+  max-height: 175px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -71,47 +90,34 @@ div#con3{
   border-radius: 10px;
 }
 
-footer{
-    text-align: center;
-}
 
 img#key{
 
-    width: 300px;
-    height: 150px;
-
+    width: 150px;
+    height: 75px;
 }
 
-img#ztp{
-    width: 100vh;
-    height: 50vh;
-    display: block;
+img#botw2{
+    width: 40vh;
+    height: 20vh;
     margin: auto;
+    padding-bottom: 20px;
+    float:right;
+
 }
 
 img#burnout{
-    width: 75vh;
-    height: 50vh;
+    width: 40vh;
+    height: 20vh;
     display: block;
     margin: auto;
 }
 
-nav a {
-    color:rgb(255, 255, 255);
-    padding:10px;
-}
-
-nav a:hover{
-    background-color: rgb(89, 194, 40);
-    color: white;
-
-}
     footer{
         background-color: rgb(0, 0, 0);
         text-align: center;
         font-size: 0.8em;
         padding: 10px;
-        
         color: white;
-      width: auto;
+        width: auto;
       }
